@@ -1,166 +1,149 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-} 
-
-header{
-    background-color: rgb(23, 105, 98);
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-}
 /* header */
+header {
+  background-color: rgb(23, 105, 98);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
 header nav ul li {
-    list-style-type: none;
-    display: inline-block;  
-    margin-right: 20px;
-    margin-top: 40px;
-    font-size: 20px;
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 20px;
+  margin-top: 40px;
+}
+header nav ul li a {
+  color: white;
+  text-decoration: none;
 }
 
-header nav ul li a{
-    color: white;
-    text-decoration: none;
+h1 {
+  text-align: center;
+  color: white;
+  background-color: rgb(27, 105, 98);
+  padding: 30px;
 }
 
-#logo{
-    width: 250px;
-    height: 120px;
-    border: solid 5px rgb(23, 105, 98);
-    border-radius: 30px;
-    padding: 10px;
+#logo {
+  width: 250px;
+  height: 120px;
+  border: solid 5px rgb(23, 105, 98);
+  border-radius: 30px;
+  padding: 10px;
 }
-h1{
-    text-align: center;
-    color: white;
-    background-color: rgb(27, 105, 98);
-    padding: 30px;
-}
+
 /* INFORMACION DE LA UNIVERSIDAD */
-#logo3{
-    width: 400px;
-    height: 300px;
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    border: solid 3px rgb(44, 60, 39);
-    border-radius: 30%;
+#logo3 {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border: solid 3px rgb(44, 60, 39);
+  border-radius: 30%;
 }
 
-.info{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 20px;
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
 }
+
 /* section sita y organizacion */
-.org{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.org {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.foto-org{
-    width: 600px;
-    height: 450px;
-    padding-bottom: 15px;
+
+.foto-org {
+  width: 600px;
+  height: 450px;
+  padding-bottom: 15px;
 }
+
 /* parrafo con info de la uni */
-.p-info{
-    margin: 20px;
-    color: black;
-    font-size: 23px;;
+.main-informacion .p-info {
+  font-size: 40px;
+  margin: 20px;
+  color: black;
+  font-size: 23px;
+}
 
+section div {
+  font-size: 20px;
 }
-section p{
-    font-size: 40px;
-}
-section div{
-    font-size: 20px;
-}
+
 /* CV */
-.main-cv{
-    background-color: rgb(255, 255, 255);
+.main-cv .nombre-cv {
+  padding: 30px;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: rgb(27, 105, 98);
 }
-.nombre-cv{
-    padding: 10px;
-    text-align: center;
-    font-size: 40px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgb(27, 105, 98);
+.main-cv .nombre {
+  font-size: 35px;
+  padding: 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  color: rgb(27, 105, 98);
 }
-.nombre{
-    font-size: 35px;
-    padding: 10px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
+.main-cv .div-cv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
-.main-index h2{
-    text-align: center;
-}
-.main-index p{
-    border: solid 5px rgb(27, 105, 98);
-    border-radius: 20px;
-    background-color: rgb(202, 196, 189);
-    padding: 10px;
-}
-.div-index {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-
-}
-.soporte{
-    height: 800px;
-    width: 900px;
+.main-cv .div-cv .foto-curriculum {
+  width: 230px;
+  height: 280px;
+  border-radius: 60px;
 }
 
-section div ol li{
-    list-style-type: disc;
-    margin-left: 40px;
-    font-size: 25px;
-    margin-bottom: 10px;
-}
-.estudios{
-    font-size: 40px;
-    padding: 15px;
-    text-align: center;
-    color: rgb(27, 105, 98);
+.main-index h2 {
+  text-align: center;
 }
 
-.conocimientos{
-    font-size: 40px;
-    padding: 15px;
-    text-align: center;
-    color: rgb(27, 105, 98);
+.main-index p {
+  border: solid 5px rgb(27, 105, 98);
+  border-radius: 20px;
+  background-color: rgb(202, 196, 189);
+  padding: 10px;
 }
 
-.main-index{
-    font-size: 30px;
-    padding: 15px;
+.datos .lista li {
+  list-style-type: disc;
+  margin-left: 50px;
+  font-size: 30px;
+  margin-bottom: 10px;
 }
-.main-index h3{
-    font-size: 50px;
+.datos .estudios {
+  font-size: 45px;
+  padding: 15px;
+  text-align: center;
+  color: rgb(27, 105, 98);
+}
+.datos .conocimientos {
+  font-size: 45px;
+  padding: 15px;
+  text-align: center;
+  color: rgb(27, 105, 98);
+}
 
-
-}
-.sita{
-    font-size: 30px;
-    text-align: center;
-    padding: 20px;
-    color: rgb(27, 105, 98);
+footer {
+  padding: 30px;
+  background-color: rgb(27, 105, 98);
+  color: white;
 }
 
-main{
-    background-color: rgb(255, 255, 255);
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-footer{
-    padding: 10px;
-    background-color:  rgb(27, 105, 98);
-    color: white;
-}
+/*# sourceMappingURL=style.css.map */
