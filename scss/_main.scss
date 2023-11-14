@@ -86,18 +86,19 @@ section div{
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         color: rgb(27, 105, 98);
     }
-    .nombre{
-        font-size: 35px;
-        padding: 30px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        text-align: center;
-        color: rgb(27, 105, 98);
-    }
+
     .div-cv{
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        .nombre{
+            font-size: 35px;
+            padding: 30px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            text-align: center;
+            color: rgb(27, 105, 98);
+        }
         .foto-curriculum{
             width: 230px;
             height: 280px;
@@ -105,10 +106,10 @@ section div{
         }
     }
 
-
 }
 
-.main-index h2{
+.main-index h1{
+    font-size: 40px;
     text-align: center;
 }
 .main-index p{
